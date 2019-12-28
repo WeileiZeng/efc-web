@@ -1,0 +1,75 @@
+#layout: stacked
+style: light
+layout: sidebar
+#style: dark
+
+
+plugins:
+  - jekyll-octicons
+  - jekyll-github-metadata
+  - jemoji
+
+future: true #show post dated in a future date
+permalink: /:year/:month/:day/:title/
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "post"
+
+projects:
+  sort_by: stars
+  # sort_by options:
+  #   - pushed
+  #   - stars
+  limit: 3
+  exclude:
+    archived: false
+    forks: true
+    projects:
+     - photo-cell
+    # - repo-name
+
+social_media:
+  # behance: your_username
+  # dribbble: your_username
+  # facebook: your_username
+  # hackerrank: your_username
+  # instagram: your_username
+  # keybase: your_username
+  # linkedin: your_username
+  # mastodon: your_username
+  # medium: your_username
+  # stackoverflow: your_user_id
+  # telegram: your_username
+    twitter: 240155787
+  # unsplash: your_username
+  # vk: your_username
+    website: https://weileizeng.github.io/
+  # youtube: your_username
+
+topics:
+  - name: quantum computing report
+    web_url: https://quantumcomputingreport.com/
+    image_url: https://secureservercdn.net/184.168.47.225/80b.bf1.myftpupload.com/wp-content/uploads/2016/03/Block-Sphere-Large.bmp
+  - name: IBM quantum simulator/devices
+    web_url: https://quantum-computing.ibm.com/
+    image_url: https://quantum-computing.ibm.com/img/intro.c96a9d64.png
+
+  - name: Quantum circuit visualization - qasm2circ
+    web_url: https://www.media.mit.edu/quanta/qasm2circ/
+    image_url: https://www.media.mit.edu/quanta/qasm2circ/test1.png
+
+  - name: John Preskill
+    web_url: http://www.theory.caltech.edu/people/preskill/
+    image_url: http://www.theory.caltech.edu/people/preskill/index_files/image002.jpg
+
+  - name: Michael Nielsen
+    web_url: http://michaelnielsen.org/
+    image_url: http://michaelnielsen.org/images/mn.jpg
+
+  - name: Daniel Gottesman
+    web_url: https://www.perimeterinstitute.ca/personal/dgottesman/index.html

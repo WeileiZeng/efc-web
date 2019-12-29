@@ -1,6 +1,6 @@
-<h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>Research</h2>
+<h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>最新动态</h2>
 <p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">
-  a research statement
+这是news栏目
 </p>
 
 
@@ -14,7 +14,7 @@ all posts are saved and called from site.posts. It is a list in some format and 
   
   {% for tag in site.tags %}
 
-  {% if tag[0] == 'research' %}
+  {% if tag[0] == 'news' %}
   {% for post in tag[1] limit: 9 %}
   <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">  {% include post-card.html %}  </div>
   {% endfor %}
@@ -22,3 +22,4 @@ all posts are saved and called from site.posts. It is a list in some format and 
   {% endfor %}
 
 </div>
+

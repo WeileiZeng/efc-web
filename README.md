@@ -4,11 +4,11 @@
 
 * 更新电子周报：
 
-上传文件至 [assets/weekly](/assests/weekly/) 文件夹
+上传文件至 [assets/weekly/](https://github.com/efcie/efcie.github.io/tree/master/assets/weekly) 文件夹
 
 * 更新牧者家书：
 
-进入[_post](/_post)文件夹，新建文件"YYYY-MM-DD-letter.md"（比如2019-12-22-letter.md）,复制letter.md 的内容到新文件，替换标题（title）和内容。
+进入[_post](https://github.com/efcie/efcie.github.io/tree/master/_posts)文件夹，新建文件"YYYY-MM-DD-letter.md"（比如2019-12-22-letter.md）,复制letter.md 的内容到新文件，替换标题（title）和内容。
 
 * 更新主日讲道：
 

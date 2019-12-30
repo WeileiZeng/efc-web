@@ -11,3 +11,8 @@ One can update content by creating new files or editing files in the folder _pos
 进入post文件夹，新建文件2019-12-22-letter.md,复制letter.md 的内容到新文件，代替标题title和内容content。
 
 https://markdowntohtml.com/
+
+
+For developers
+
+[https://www.sitepoint.com/quick-tip-sync-your-fork-with-the-original-without-the-cli/]

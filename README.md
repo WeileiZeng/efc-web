@@ -1,8 +1,4 @@
-This repository support the website www.efcie.org
-
-One can update content by creating new files or editing files in the folder _post/
-
-这个代码库支持网站www.efcie.org 并允许更新内容。
+这个代码库支持网站 [www.efcie.org] 并允许更新内容。
 
 可以日常更新的内容有：电子周报、主日讲道、牧者家书、最新动态、图文集锦
 
@@ -28,11 +24,17 @@ One can update content by creating new files or editing files in the folder _pos
 
 * 其他模块更新请联系网页开发人员。
 
+请注意，
 
+1 - 所有跟新文件都是markdown格式。文字分段要求空行才行。
+
+2 - 每次跟新文件后需要commit，网站才会更新。
+
+3 - 网站自动更新需要五分钟左右
+
+
+以下是开发人员素材 For developers
 
 https://markdowntohtml.com/
-
-
-For developers
 
 [https://www.sitepoint.com/quick-tip-sync-your-fork-with-the-original-without-the-cli/]

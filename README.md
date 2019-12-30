@@ -4,7 +4,7 @@
 
 * 更新电子周报：
 
-上传文件至_includes/weekly/ 文件夹
+上传文件至[assets/weekly/] 文件夹
 
 * 更新牧者家书：
 
